@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Coders</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <br>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-coder"><b>Coder Name</b></label>
+                        <input type="text" class="form-control" id="new-coder">
+                    </div>
+                </div>  
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-certificates"><b>Certificate</b></label>
+                        <input type="text" class="form-control" id="new-certificates">
+                    </div>
+                </div>                                      
+            </div>
+            <div>
+                <button id="add" class="btn btn-success from-control">Create</button> 
+            </div>  
+        </div>        
+    </div>
+
+    <div id="coders">
+
+    </div>
+
+
+    <table id="list" class="table">
+        <tr class="table-primary">
+            <th>Coder</th>
+            <th>Certificates</th>
+            <th>''</th>     
+        </tr>
+        <tr class="table-secondary">
+            <td>Brittaini</td>
+            <td>JavaScript, bootstrap, HTML, CSS</td>
+            <td>''</td> 
+        </tr>
+        <tr class="table-secondary">
+            <td>Jolene</td>
+            <td>JavaScript, bootstrap, HTML, CSS</td>
+            <td>''</td>                 
+        </tr>
+        <tr class="table-primary">
+            <th>Add New Coder</th>
+            <th>Certificates</th>
+            <th>Remove</th>     
+        </tr>
+    </table>
+   
+
+    <script src="coding-assnmnt.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
